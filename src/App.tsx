@@ -1,12 +1,10 @@
 import React from 'react';
-import HomePageContainer from 'src/homepage/containers/HomePageContainer';
+import { AppRouter } from 'src/modules/router/Router';
+import {CssBaseline} from '@material-ui/core';
+import {withThemeProvider } from 'src/modules/theme/hoc/withTheme';
 
-function App() {
-  return (
-    <div>
-      <HomePageContainer />
-    </div>
-  );
-}
+const App = withThemeProvider(() => <CssBaseline>
+<AppRouter/>
+</CssBaseline>);
 
 export default App;

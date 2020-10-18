@@ -2,6 +2,6 @@
 
 - [x] Setup Project
 - [x] Setup Routing With Code Splitting
-- [ ] Setup MUI Theme
+- [X] Setup MUI Theme with dark mode
 - [ ] Setup Tests
 - [ ] Write Landing Page Components
